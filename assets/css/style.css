@@ -1,0 +1,364 @@
+html{
+	height:100%;
+}
+
+
+body{
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+#container{
+	flex:1;
+	box-sizing: border-box;
+	width:100%;
+	margin:auto;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 150%;
+	background: lightgray; 
+	
+}
+
+#topbanner{
+	background: white;
+
+}
+
+#myname{
+	padding:20px;
+	background: #4aaaa5;
+	font-size: 25px;
+	font-weight: 700;
+	width:200px;
+	color: white;
+	position: relative;
+	left: 82px;
+	text-align: center;
+	float:left;
+
+}
+
+h1{
+	font-size: 25px;
+	font-weight: 700;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: #4aaaa5;
+	background: #ffffff;
+	border-bottom: 2px solid lightgray;
+	padding-bottom:20px;
+	
+}
+
+
+#link-list{
+	margin-top: 20px;
+	margin-right: 100px;
+	float:right;
+
+}
+
+.linkbutton{
+	background:white;
+	width:200px;
+	color: lightgray;
+	margin:5px;
+}
+
+
+#wrapper{
+	box-sizing: border-box;
+	clear:both;
+	border:1px solid #dddddd;
+	padding-left:20px;
+	padding-right: 10px;
+	overflow: auto;
+
+
+}
+
+.maincontent{
+	width:650px;
+	box-sizing: border-box;
+	padding: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+	background: white;
+}
+
+.sidebar{
+	text-align: center;
+	color:#4aaaa5;
+	box-sizing: border-box;
+	padding: 10px;
+	width:270px;
+	float: left;
+	background: white;
+	margin-top: 20px;
+	margin-left: 40px;
+
+}
+
+.connect-links{
+
+}
+
+#link-list2{
+	margin-right: 31px;
+	margin-left: 31px;
+}
+
+.link-pics{
+	float:left;
+	width:40px;
+	margin:10px;
+	background: gray;
+}
+#aboutme{
+	margin:10px;
+	color: #777777;
+
+}
+
+#mypic{
+	float: left;
+	margin: 10px;
+}
+#paragraph-aboutme{
+/*	float:left;*/
+}
+
+.site-footer{
+	box-sizing: border-box;
+	width: 100%;
+	margin:auto;
+	text-align: center;
+	padding:20px;
+	background: gray;
+	border-top: 5px solid #4aaaa5;
+	color: white;
+}
+
+.image1{
+	float:left;
+}
+
+.port-label{
+	width: 200px;
+	box-sizing: border-box;
+	padding:20px;
+	background: #4aaaa5;
+	font-size: 18px;
+	width:200px;
+	color: white;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	position: relative;
+	top:-100px;
+	/*z-index: 2;
+*/}
+
+#linktext{
+	color:white;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: pink;
+}
+
+.contactform {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+@media screen and (max-width: 980px){
+	#topbanner{
+		width: 960px;
+	}
+	#link-list{
+		margin-right: 180px;
+	}
+	#wrapper{
+	padding-left: 20px;
+	}
+	.sidebar{
+		margin-left: 5px;
+		width: 200px;
+	}
+	h1{
+		font-size: 20px;
+	}
+	#link-list2{
+		margin-left:10px;
+		margin-right: 10px;
+	}
+	.link-pics{
+		margin:5px;
+	}
+	#container{
+		width: 960px;
+	}
+	.maincontent{
+		width: 300px;
+		padding:10px;
+		margin-left:200px;
+		margin-right: 50px;
+	}
+	.image1{
+	margin-left:40px;
+	margin-top: 20px;
+	}
+	#myname{
+		width: 170px;
+		padding:20px;
+		left:230px;
+	}
+	.site-footer{
+		width: 960px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#topbanner{
+		width: 768px;
+	}
+	#link-list{
+		margin-right: 10px;
+	}
+	#wrapper{
+	padding-left: 0px;
+	}
+	.sidebar{
+		margin-left: 10px;
+		width: 748px;
+	}
+	h1{
+		font-size: 25px;
+	}
+	#link-list2{
+		margin-left:10px;
+		margin-right: 10px;
+	}
+	.link-pics{
+		margin:10px;
+		width: 60px;
+	}
+	#container{
+		width: 768px;
+	}
+	.maincontent{
+		width: 748px;
+		padding:20px;
+		margin-left:10px;
+		margin-right: 10px;
+	}
+	.image1{
+	margin-left:40px;
+	margin-top: 20px;
+	}
+	#myname{
+		width: 170px;
+		padding:20px;
+		left:80px;
+	}
+	.site-footer{
+		width: 768px;
+	}
+	.portImage{
+	width:300px;
+	}
+	.port-label{
+	width: 300px;
+	margin-right:0;
+	font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 640px){
+	#topbanner{
+		width: 640px;
+		position: static;
+	}
+	#link-list{
+		margin-right: 10px;
+	}
+	#wrapper{
+	padding-left: 0px;
+	}
+	#mypic{
+		width:560px;
+		margin-right: 20px;
+	}
+	.sidebar{
+		margin-left: 10px;
+		width: 620px;
+	}
+	h1{
+		font-size: 25px;
+	}
+	#link-list2{
+		margin-left:10px;
+		margin-right: 10px;
+	}
+	.link-pics{
+		margin:10px;
+		width: 60px;
+	}
+	#container{
+		width: 640px;
+		padding-left: 0px;
+	}
+	.maincontent{
+		width: 620px;
+		padding:20px;
+		margin-left:10px;
+		margin-right: 10px;
+	}
+	.image1{
+	margin-left:40px;
+	margin-top: 20px;
+	}
+	#myname{
+		width: 170px;
+		padding:20px;
+		left:80px;
+	}
+	.site-footer{
+		width: 640px;
+	}
+	.portImage{
+	width:520px;
+
+	}
+	.port-label{
+	width: 520px;
+	margin-right:0;
+	font-size: 30px;
+	margin-left: 0px;
+	}
+}
+
